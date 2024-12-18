@@ -1,7 +1,7 @@
 # GFX Framework
 
 ## Projects:
-The project is divided in three subjects: 2D tank wars, 3D drone simulator, 3d Cappadocian Balloons
+The project is divided in three subjects: 2D tank wars, 3D drone simulator, 3D Cappadocian Balloons
 
 Subject1: main.cpp: Change the line with: World* world = new m1::Tema1();
 Functionalities:
