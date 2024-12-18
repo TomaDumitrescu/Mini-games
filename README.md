@@ -1,5 +1,31 @@
 # GFX Framework
 
+## Projects:
+The project is divided in three subjects: 2D tank wars, 3D drone simulator, 3d Cappadocian Balloons
+
+Subject1: main.cpp: Change the line with: World* world = new m1::Tema1();
+Functionalities:
+- sinusoidal terrain
+- two tanks beautifully designed
+- perfect tank orienting on the terrain
+- controlling tank shooter and Ox movement
+- projectiles that follow a parabolic trajectory from the launch point
+- guide for the projectiles trajectory
+- collision detection between projectiles, tanks, and ground
+- dynamical HP bar for each tank
+- game over detection and winner announcement
+
+- Subject2: main.cpp: Change the line with: World* world = new m1::Tema2();
+Functionalities:
+- objects: trees, buildings, the drone
+- propellers animation
+- drone orienting based on the turning type
+- drone movement on Ox, Oy, Oz, and rotation in raport with Oy
+- randomized algorithms for placing the objects to make the map to appear non-uniform,
+tree probability: 2 / 3, building probability: 1 / 3. Randomized sizes.
+- collision detection between objects, drone and terrain
+
+
 ## :sparkles: Introduction
 
 This project is a tiny graphics framework used by the Computer Graphics Department of the Polytechnic University of Bucharest.
