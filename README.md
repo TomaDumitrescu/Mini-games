@@ -3,7 +3,7 @@
 ## Projects:
 The project is divided in three subjects: 2D tank wars, 3D drone simulator, 3D Cappadocian Balloons
 
-Subject1 **Tank Wars**: main.cpp: Change the line with: World* world = new m1::Tema1();
+**Tank Wars**: main.cpp: Change the line with: World* world = new m1::Tema1();
 Functionalities:
 - sinusoidal terrain
 - two tanks beautifully designed
@@ -15,7 +15,7 @@ Functionalities:
 - dynamical HP bar for each tank
 - game over detection and winner announcement
 
-Subject2 **Drone simulator**: main.cpp: Change the line with: World* world = new m1::Tema2();
+**Drone simulator**: main.cpp: Change the line with: World* world = new m1::Tema2();
 Functionalities:
 - objects: trees, buildings, the drone
 - propellers animation
