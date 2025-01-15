@@ -39,7 +39,7 @@ void main()
 
     // TODO(student): Compute specular light component
     vec3 H = normalize(V + L);
-    float specular_light = material_ks * pow(max(dot(N, H), 0), material_shininess);;
+    float specular_light = material_ks * pow(max(dot(N, H), 0), material_shininess);
 
     // It's important to distinguish between "reflection model" and
     // "shading method". In this shader, we are experimenting with the Phong

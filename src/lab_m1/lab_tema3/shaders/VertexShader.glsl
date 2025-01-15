@@ -10,6 +10,7 @@ layout(location = 3) in vec3 v_color;
 uniform mat4 Model;
 uniform mat4 View;
 uniform mat4 Projection;
+uniform sampler2D texture_1; 
 
 // Output
 out vec2 texcoord;
@@ -17,8 +18,12 @@ out vec2 texcoord;
 
 void main()
 {
-    // TODO(student): Pass v_texture_coord as output to fragment shader
+    // Pass v_texture_coord as output to fragment shader
     texcoord = v_texture_coord;
 
-    gl_Position = Projection * View * Model * vec4(v_position, 1.0);
+    vec3 deformed_terrain = v_position;
+    const float Y_OFFSET = 35; 
+    deformed_terrain[1] += Y_OFFSET * texture(texture_1, v_texture_coord).r;
+
+    gl_Position = Projection * View * Model * vec4(deformed_terrain, 1.0);
 }

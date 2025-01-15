@@ -1,4 +1,4 @@
-#include "lab_m1/Tema1/object2D.h"
+#include "lab_m1/lab_tema/object2D.h"
 
 #include <vector>
 
@@ -7,18 +7,6 @@
 
 #define BASE_RATIO_WIDTH 0.2f
 #define BASE_RATIO_HEIGHT 0.33f
-
-Mesh* object2D::CreateTriangle(
-    const std::string& name,
-    glm::vec3 leftBottomCorner,
-    float length,
-    glm::vec3 color,
-    bool fill)
-{
-    Mesh* trapezoid = new Mesh(name);
-
-    return trapezoid;
-}
 
 
 Mesh* object2D::CreateSquare(
