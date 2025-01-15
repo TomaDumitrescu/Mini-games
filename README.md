@@ -1,7 +1,7 @@
 # GFX Framework
 
 ## Projects:
-The project is divided in three subjects: 2D tank wars, 3D drone simulator, 3D Cappadocian Balloons
+The project is divided in three subjects, in decreasing complexity order: 2D tank wars, 3D drone simulator, 3D mountains
 
 **Tank Wars**: main.cpp: Change the line with: World* world = new m1::Tema1();
 Functionalities:
@@ -25,6 +25,14 @@ Functionalities:
 tree probability: 2 / 3, building probability: 1 / 3. Randomized sizes.
 - collision detection between objects, drone and terrain
 
+**Mountains**: main.cpp: Change the line with World* world = new m1::Tema3();
+Functionalities:
+- sun object created using a sphere mesh
+- plane deformed in Vertex Shader using a height map texture to create the mountains
+- random number to translate the plane on Oy to form different terrains
+
+**Mixing lights laboratory**: a moving source of light is combined with another static
+source of light, using the models: Phong, Gouraud, Spot-light, multi-illumination
 
 ## :sparkles: Introduction
 
