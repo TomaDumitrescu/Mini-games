@@ -102,7 +102,6 @@ Not updating your drivers may result in the project not working, or displaying a
 ### Check your graphics capabilities
 
 Graphics capabilities are decided by the combination of your computer's hardware, drivers, and operating system.
-
 This project requires OpenGL version ***3.3 core profile, or newer*** for the simpler parts, and version ***4.3 core profile, or newer***  for the more advanced parts. If you have a computer manufactured within the last few years, you should be safe. ***If you're not sure,*** follow the steps in [this guide](docs/user/checking_capabilities.md) to find out.
 
 
